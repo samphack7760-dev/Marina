@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для Марины ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Marck+Script&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: #0f0f13; color: #fff; font-family: 'Comfortaa', cursive; overflow-x: hidden; }
+        
+        .hero { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: radial-gradient(circle at center, #2a0d1b, #0f0f13 70%); padding: 20px; }
+        .hero h1 { font-family: 'Marck Script', cursive; font-size: 3.5rem; color: #ff2a6d; text-shadow: 0 0 10px #ff2a6d, 0 0 20px #ff2a6d, 0 0 40px #ff2a6d; margin-bottom: 20px; animation: pulse 2s infinite alternate; }
+        .hero p { font-size: 1.2rem; color: #a0a0a0; }
+        
+        .gallery { display: flex; flex-direction: column; align-items: center; gap: 50px; padding: 50px 20px; max-width: 800px; margin: 0 auto; }
+        .card { background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid rgba(255, 42, 109, 0.3); transition: transform 0.3s ease; width: 100%; }
+        .card:hover { transform: translateY(-10px) scale(1.02); box-shadow: 0 15px 40px rgba(255, 42, 109, 0.2); }
+        .card img { width: 100%; border-radius: 12px; object-fit: cover; display: block; }
+        .caption { margin-top: 15px; text-align: center; font-size: 1.1rem; color: #ff8ba7; font-style: italic; }
+        
+        .final-section { padding: 100px 20px; text-align: center; display: flex; flex-direction: column; align-items: center; background: linear-gradient(to top, #1a0b12, #0f0f13); }
+        .final-section h2 { color: #ff2a6d; margin-bottom: 20px; font-size: 2rem; }
+        #random-message { font-size: 1.2rem; margin-bottom: 30px; min-height: 50px; color: #fff; }
+        #love-btn { padding: 15px 40px; font-size: 1.2rem; font-family: 'Comfortaa', cursive; font-weight: bold; color: white; background: linear-gradient(45deg, #ff2a6d, #ff6b9d); border: none; border-radius: 50px; cursor: pointer; box-shadow: 0 0 15px #ff2a6d; transition: all 0.3s ease; }
+        #love-btn:hover { transform: scale(1.1); box-shadow: 0 0 25px #ff2a6d, 0 0 50px #ff2a6d; }
+        
+        @keyframes pulse { 0% { text-shadow: 0 0 10px #ff2a6d, 0 0 20px #ff2a6d; } 100% { text-shadow: 0 0 15px #ff2a6d, 0 0 30px #ff2a6d, 0 0 60px #ff2a6d; } }
+        .fade-in { opacity: 0; transform: translateY(50px); transition: opacity 0.8s ease, transform 0.8s ease; }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        
+        @media (max-width: 600px) { .hero h1 { font-size: 2.5rem; } .card { width: 95%; } }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Котёнок, я тебя люблю</h1>
+        <p>Каждый момент с тобой -- это подарок</p>
+    </header>
+
+    <main class="gallery">
+        <!-- ВСТАВЬ ССЫЛКИ НА ФОТО ВМЕСТО ТЕКСТА ВНУТРИ КАВЫЧЕК src="..." -->
+        <div class="card fade-in">
+            <img src="<a href="https://postimg.cc/LYKtztd9" target="_blank"><img src="https://i.postimg.cc/LYKtztd9/IMG-20261107-223835-762.jpg" alt="IMG-20261107-223835-762">
+            <div class="caption">Твоя улыбка -- мое самое любимое зрелище</div>
+        </div>
+
+        <div class="card fade-in">
+            <img src="<a href="https://postimg.cc/WFLGMGRT" target="_blank"><img src="https://i.postimg.cc/WFLGMGRT/IMG-20261107-223832-099.jpg" alt="IMG-20261107-223832-099">
+            <div class="caption">Ты даже в обычной футболке выглядишь потрясающе</div>
+        </div>
+
+        <div class="card fade-in">
+            <img src="<a href="https://postimg.cc/Fd5yjyts" target="_blank"><img src="https://i.postimg.cc/Fd5yjyts/IMG-20261107-223829-737.jpg" alt="IMG-20261107-223829-737"></a>
+            <div class="caption">Эти красные волосы сводят меня с ума 🔥</div>
+        </div>
+
+        <div class="card fade-in">
+            <img src="<a href="https://postimg.cc/5YdBwBcx" target="_blank"><img src="https://i.postimg.cc/5YdBwBcx/IMG-20261107-223827-604.jpg" alt="IMG-20261107-223827-604"></a>
+            <div class="caption">Смотрю на тебя и понимаю, как мне повезло</div>
+        </div>
+
+        <div class="card fade-in">
+            <img src="<a href="https://postimg.cc/tZQ3h30Y" target="_blank"><img src="https://i.postimg.cc/tZQ3h30Y/IMG-20261107-223824-030.jpg" alt="IMG-20261107-223824-030"></a>
+            <div class="caption">Ты прекрасна, даже когда просто нюхаешь цветы</div>
+        </div>
+
+        <div class="card fade-in">
+            <img src="<a href="https://postimg.cc/xJvKgXYP" target="_blank"><img src="https://i.postimg.cc/xJvKgXYP/IMG-20261106-215334-186.jpg" alt="IMG-20261106-215334-186"></a>
+            <div class="caption">Твоя энергия и позитив заряжают меня каждый день</div>
+        </div>
+    </main>
+
+    <section class="final-section">
+        <h2>А знаешь что?</h2>
+        <p id="random-message">Нажми на кнопку ниже 👇</p>
+        <button id="love-btn">Нажми меня 💖</button>
+    </section>
+
+    <script>
+        const faders = document.querySelectorAll('.fade-in');
+        const appearOptions = { threshold: 0.2, rootMargin: "0px 0px -50px 0px" };
+        const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) return;
+                entry.target.classList.add('visible');
+                appearOnScroll.unobserve(entry.target);
+            });
+        }, appearOptions);
+        faders.forEach(fader => { appearOnScroll.observe(fader); });
+
+        const btn = document.getElementById('love-btn');
+        const messageDisplay = document.getElementById('random-message');
+        const messages = [
+            "Ты -- мое самое любимое чудо на свете! ❤️",
+            "Спасибо, что ты есть. Я тебя очень сильно люблю!",
+            "Твои глаза красивее всех звезд ✨",
+            "Ты делаешь этот мир намного ярче!",
+            "Я хочу обнимать тебя каждый день 🤗",
+            "Ты самая красивая, самая умная и самая лучшая!",
+            "Я люблю тебя больше, чем пиццу (а это много) 🍕",
+            "Каждый день с тобой -- это мой любимый день 💕"
+        ];
+
+        btn.addEventListener('click', () => {
+            const randomIndex = Math.floor(Math.random() * messages.length);
+            messageDisplay.style.opacity = 0;
+            setTimeout(() => {
+                messageDisplay.textContent = messages[randomIndex];
+                messageDisplay.style.opacity = 1;
+                messageDisplay.style.transition = "opacity 0.5s";
+            }, 300);
+            createHearts();
+        });
+
+        function createHearts() {
+            for (let i = 0; i < 10; i++) {
+                const heart = document.createElement('div');
+                heart.innerHTML = '❤️';
+                heart.style.position = 'fixed';
+                heart.style.left = Math.random() * 100 + 'vw';
+                heart.style.bottom = '-20px';
+                heart.style.fontSize = (Math.random() * 20 + 15) + 'px';
+                heart.style.pointerEvents = 'none';
+                heart.style.zIndex = '9999';
+                heart.style.transition = 'transform 3s ease-in, opacity 3s ease-in';
+                document.body.appendChild(heart);
+                setTimeout(() => {
+                    heart.style.transform = `translateY(-100vh) rotate(${Math.random() * 360}deg)`;
+                    heart.style.opacity = 0;
+                }, 10);
+                setTimeout(() => { heart.remove(); }, 3000);
+            }
+        }
+    </script>
+</body>
+</html>
